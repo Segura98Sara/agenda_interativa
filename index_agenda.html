@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, Follow"> 
+    <meta name="theme-Color" content="#5cb85c">
+    <link rel="icon" href="img/nuevo_icono.jpeg">
+    
+    <title>Agenda Interactiva</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+    <div
+     class="agenda-container"> 
+     <h1>Agenda de Eventos</h1>
+     <form id="event-form">
+         <input type="text" id="event-title" placeholder="Título del Evento" required>
+         <input type="date" id="event-date" required>
+         <button type="submit">Agregar Evento</button>
+         
+     </form>
+     <div id="events-list"></div>
+    </div>
+     
+    
+    
+  
+    <script src="agenda.js"></script>
+</body>
+</html>
